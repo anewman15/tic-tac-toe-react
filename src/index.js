@@ -4,13 +4,6 @@ import Game from './Game';
 import calculateWinner from './utils';
 import './index.css';
 
-const Square = (props) => {
-  return (
-    <button className="square" onClick={props.onClickSquare}>
-      {props.value}
-    </button>
-  );
-}
 
 class Board extends React.Component {
   constructor(props) {
